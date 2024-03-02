@@ -47,7 +47,7 @@ body {
   padding: 10px;
   width: auto;
   height: auto;
-  text-align: center;
+
 }
 
 .seccion__plato_dos{
@@ -172,9 +172,64 @@ body {
 }
 
 .plato_uno__card{
-  
+  padding: 10px;
 }
 
 .plato_uno__card__titulo{
   color: white;
+  font-size: 40px;
+}
+
+.plato_uno__card__texto{
+  color: white;
+
+}
+
+.plato_uno__card__boton{
+  background-color: #f6d365;
+  font-size: 20px;
+  font-weight: 700;
+  width: 200px;
+  height: 40px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.statistics__titulo{
+  color: #333333;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.statistics__texto{
+  text-align: center;
+  padding: 10px;
+}
+
+.statistics__lista{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  list-style: none;
+}
+
+.statistics__item{
+  border: #333333 5px solid;
+  height: 200px;
+  width: 200px;
+}
+
+.statistics__titulo--list{
+  color: #333333;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 55px;
+}
+
+.statistics__text--list{
+  color: #333333;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
 }

@@ -233,3 +233,101 @@ body {
   text-align: center;
   margin: 10px;
 }
+
+.plato_dos__elemento{
+  display: flex;
+}
+
+.plato_dos__card{
+  padding: 10px;
+}
+
+.plato_dos__card__titulo{
+  color: white;
+  font-size: 40px;
+}
+
+.plato_dos__card__texto{
+  color: white;
+}
+
+.plato_dos__card__boton{
+  background-color: #f6d365;
+  font-size: 20px;
+  font-weight: 700;
+  width: 200px;
+  height: 40px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.plato_dos__imagen{
+  width: 250px;
+  height: 370px;
+}
+
+.registro__titulo{
+  color: #333333;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.registro__texto{
+  text-align: center;
+  padding: 10px;
+}
+
+.registro__imput{
+  width: 350px;
+  height: 40px;
+  
+}
+
+.registro__boton{
+  background-color: #333333;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  width: 150px;
+  height: 40px;
+  border-style: none;
+  border-radius: 3px;
+}
+
+.footer__elemento{
+  display: flex;
+  color: white;
+}
+
+.footer__card{
+  padding: 20px;
+}
+
+.footer__card__titulo{
+  padding-bottom: 10px;
+}
+
+.footer__card__texto{
+
+}
+
+.footer__card__list{
+  align-items: center;
+  gap: 4rem;
+  list-style: none;
+}
+
+.footer__card__list--{
+  display: flex;
+  list-style: none;
+}
+
+.footer__card__item{
+  padding: 5px;
+}
+
+.footer__card__imagen{
+  width: 30px;
+  height: 30px;
+}

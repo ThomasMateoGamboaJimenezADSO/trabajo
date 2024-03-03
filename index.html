@@ -97,13 +97,15 @@
   </section>
   <!--PLATO DOS-->
   <section class="seccion__plato_dos">
-    <div class="contenedor">
-      <div>
-        <h2>CHICKEN SATAY</h2>
-        <P>Lorem ipsum dolor, sit amet consectetur adipisicing.</P>
-        <button>ORDER NOW</button>
+      <div class="contenedor">
+      <div class="plato_dos__elemento">
+        <div class="plato_dos__card">
+          <h2 class="plato_dos__card__titulo">CHICKEN SATAY</h2>
+          <P class="plato_dos__card__texto">Lorem ipsum dolor, sit amet consectetur adipisicing.</P>
+          <button class="plato_dos__card__boton">ORDER NOW</button>
+        </div>
+        <img src="imagenes/comida_5.png" alt="comida_5" class="plato_dos__imagen">
       </div>
-      <img src="imagenes/comida_5.png" alt="comida_5">
     </div>
   </section>
   <!--PERFIL CHEF-->
@@ -118,84 +120,93 @@
   <!--REGISTRO-->
   <section class="seccion__registro">
     <div class="contenedor">
-      <h1></h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, obcaecati. Reprehenderit ducimus ea libero nisi!
+      <h1 class="registro__titulo">DONT'T MISS OUR UPDATE</h1>
+      <p class="registro__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, obcaecati. Reprehenderit ducimus ea libero nisi!
       </p>
-      <input type="email" placeholder="Your Email">
-      <button>SUBSCRIBE</button>
+      <input type="email" placeholder="Your Email" class="registro__imput">
+      <button class="registro__boton">SUBSCRIBE</button>
     </div>
   </section>
   <!--FOOTER-->
   <footer class="seccion__footer">
     <div class="contenedor">
-      <div>
-        <div>
-          <h3>Title Here</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem commodi eligendi iste ullam, libero tempora
+      <div class="footer__elemento">
+        <div class="footer__card">
+          <h3 class="footer__card__titulo">Title Here</h3>
+          <p class="footer__card__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem commodi eligendi iste ullam, libero tempora
             quam eos recusandae. Commodi, vel?</p>
-          <ul>
-            <li><a href=""><img src="imagenes/instagram.png" alt="instagram"></a></li>
-            <li><a href=""><img src="imagenes/Facebook.png" alt="facebook"></a></li>
-            <li><a href=""><img src="imagenes/Twitter.png" alt="twitter"></a></li>
-            <li><a href=""><img src="imagenes/WhatsApp.png" alt="whatsaap"></a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>About</h3>
-          <ul>
-            <li>
-              <p>History</p>
+          <ul class="footer__card__list--">
+            <li class="footer__card__item">
+              <a href=""><img src="imagenes/instagram.png" alt="instagram" class="footer__card__imagen"></a>
             </li>
-            <li>
-              <p>Our team</p>
+            <li class="footer__card__item">
+              <a href=""><img src="imagenes/Facebook.png" alt="facebook" class="footer__card__imagen"></a>
             </li>
-            <li>
-              <p>Brand Guidelines</p>
+            <li class="footer__card__item">
+              <a href=""><img src="imagenes/Twitter.png" alt="twitter" class="footer__card__imagen"></a>
             </li>
-            <li>
-              <p>Terms & Condition</p>
-            </li>
-            <li>
-              <p>Privacy Policy</p>
+            <li class="footer__card__item">
+              <a href=""><img src="imagenes/WhatsApp.png" alt="whatsaap" class="footer__card__imagen"></a>
             </li>
           </ul>
         </div>
-      </div>
-      <div>
-        <h3>Services</h3>
-        <ul>
-          <li>
-            <p>How to Order</p>
-          </li>
-          <li>
-            <p>Our Product</p>
-          </li>
-          <li>
-            <p>Order Status</p>
-          </li>
-          <li>
-            <p>Promo</p>
-          </li>
-          <li>
-            <p>Payment Method</p>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3>Other</h3>
-        <ul>
-          <li>
-            <p>Contact Us</p>
-          </li>
-          <li>
-            <p>Help</p>
-          </li>
-          <li>
-            <p>Privacy</p>
-          </li>
-        </ul>
-      </div>
+        <div class="footer__card">
+          <h3 class="footer__card__titulo">About</h3>
+          <ul class="footer__card__list">
+            <li class="footer__card__item">
+              <p class="footer__card__texto">History</p>
+            </li>
+            <li class="footer__card__item">
+              <p class="footer__card__texto">Our team</p>
+            </li>
+            <li class="footer__card__item">
+              <p class="footer__card__texto">Brand Guidelines</p>
+            </li>
+            <li class="footer__card__item">
+              <p class="footer__card__texto">Terms & Condition</p>
+            </li>
+            <li class="footer__card__item">
+              <p class="footer__card__texto">Privacy Policy</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__card">
+          <h3 class="footer__card__titulo">Services</h3>
+          <ul class="footer__card__list">
+            <li class="footer__card__item">
+              <p class="footer__card__texto">How to Order</p>
+            </li>
+            <li class="footer__card__item">
+              <p class="footer__card__texto">Our Product</p>
+            </li>
+            <li class="footer__card__item">
+              <p class="footer__card__texto">Order Status</p>
+            </li>
+            <li class="footer__card__item">
+              <p class="footer__card__texto">Promo</p>
+            </li>
+            <li class="footer__card__item">
+              <p class="footer__card__texto">Payment Method</p>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__card">
+          <h3 class="footer__card__titulo">Other</h3>
+          <ul class="footer__card__list">
+            <li class="footer__card__item">
+              <p class="footer__card__texto">Contact Us</p>
+            </li>
+            <li class="footer__card__item">
+              <p class="footer__card__texto">Help</p>
+            </li>
+            <li class="footer__card__item">
+              <p class="footer__card__texto">Privacy</p>
+            </li>
+          </ul>
+        </div>
     </div>
+  </div>
   </footer>
 
 </body>

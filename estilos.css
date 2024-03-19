@@ -56,14 +56,18 @@ body {
   justify-content: center;
 
 
+
 }
 
 .seccion__plato_dos{
+  display: flex;
   background: url(imagenes/fondo_4.png)center/cover;
   background-repeat: no-repeat;
   padding: 10px;
   width: auto;
   height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .seccion__perfil{
@@ -71,8 +75,11 @@ body {
   background-repeat: no-repeat;
   padding: 10px;
   width: auto;
-  height: auto;
+  height: 100vh;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .seccion__registro{
@@ -80,8 +87,11 @@ body {
   background-repeat: no-repeat;
   padding: 10px;
   width: auto;
-  height: auto;
+  height: 100vh;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .seccion__footer{
@@ -279,20 +289,28 @@ body {
 
 .plato_dos__elemento{
   display: flex;
+  justify-content: space-between;
 }
 
 .plato_dos__card{
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 5%;
 }
 
 .plato_dos__card__titulo{
   color: white;
-  font-size: 40px;
+  font-size: 48px;
+
   
 }
 
 .plato_dos__card__texto{
   color: white;
+  margin-top: 4%;
 }
 
 .plato_dos__card__boton{
@@ -303,12 +321,27 @@ body {
   height: 40px;
   border-style: none;
   border-radius: 5px;
+    margin-top: 4%;
+
 }
 
 .plato_dos__imagen{
-  width: 250px;
-  height: 370px;
+  width: 50%;
+  height: 50%;
 }
+
+
+
+.seccion__perfil p{
+  margin-top: 5%;
+}
+
+
+.seccion__perfil h2{
+  margin-top: 3%;
+
+}
+
 
 .registro__titulo{
   color: #333333;
@@ -320,11 +353,14 @@ body {
 .registro__texto{
   text-align: center;
   padding: 10px;
+  margin-top: 2%;
 }
 
 .registro__imput{
   width: 350px;
   height: 40px;
+  margin-top: 4%;
+  margin-right: -5px;
   
 }
 

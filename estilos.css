@@ -35,11 +35,15 @@ body {
 }
 
 .seccion__plato_uno{
+  display: flex;
+  flex-direction: row;
   background: url(imagenes/fondo_2.png)center/cover;;
   background-repeat: no-repeat;
   padding: 10px;
   width: auto;
-  height: auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .seccion__statistics{
@@ -47,20 +51,23 @@ body {
   background-repeat: no-repeat;
   padding: 10px;
   width: auto;
-  height: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
 
 }
 
 .seccion__plato_dos{
-  background: url(imagenes/fondo_4.png)center/cover;;
+  background: url(imagenes/fondo_4.png)center/cover;
   background-repeat: no-repeat;
   padding: 10px;
   width: auto;
-  height: auto;
+  height: 100vh;
 }
 
 .seccion__perfil{
-  background: url(imagenes/fondo_perfil.png)center/cover;;
+  background: url(imagenes/fondo_perfil.png)center/cover;
   background-repeat: no-repeat;
   padding: 10px;
   width: auto;
@@ -85,7 +92,7 @@ body {
 }
 
 .contenedor {
-
+ width: 70%;
   margin: 0 auto;
 }
 
@@ -187,21 +194,30 @@ body {
 }
 
 .plato_uno__imagen{
-  width: 250px;
-  height: 370px;
+  width: 50%;
+  height: 50%;
 }
 
 .plato_uno__card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   padding: 10px;
+  margin-left: 10%;
+  width: auto;
 }
 
 .plato_uno__card__titulo{
   color: white;
-  font-size: 40px;
+  font-size: 48px;
+
 }
 
 .plato_uno__card__texto{
   color: white;
+    margin-top: 5%;
+
 
 }
 
@@ -213,18 +229,23 @@ body {
   height: 40px;
   border-style: none;
   border-radius: 5px;
+  margin-top: 10%;
 }
 
-.statistics__titulo{
+.statistics__titulo {
   color: #333333;
   font-size: 40px;
   text-align: center;
   padding: 10px;
+  margin-top: 10%;
+
 }
 
 .statistics__texto{
   text-align: center;
   padding: 10px;
+    margin-top: 2%;
+
 }
 
 .statistics__lista{
@@ -232,6 +253,8 @@ body {
   align-items: center;
   gap: 4rem;
   list-style: none;
+  justify-content: center;
+  margin-top: 5%;
 }
 
 .statistics__item{
@@ -265,6 +288,7 @@ body {
 .plato_dos__card__titulo{
   color: white;
   font-size: 40px;
+  
 }
 
 .plato_dos__card__texto{
